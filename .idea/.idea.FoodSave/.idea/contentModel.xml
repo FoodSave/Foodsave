@@ -24,6 +24,9 @@
         </e>
         <e p="dockerfile" t="Include" />
         <e p="FS_Auth.csproj" t="IncludeRecursive" />
+        <e p="https" t="Include">
+          <e p="devcert.pfx" t="Include" />
+        </e>
         <e p="Migrations" t="Include" />
         <e p="Models" t="Include">
           <e p="ApplicationUser.cs" t="Include" />
@@ -60,6 +63,9 @@
         </e>
         <e p="dockerfile" t="Include" />
         <e p="Dockerfile.production" t="Include" />
+        <e p="https" t="Include">
+          <e p="devcert.pfx" t="Include" />
+        </e>
         <e p="Migrations" t="Include">
           <e p="20210114132943_fix.cs" t="Include" />
           <e p="20210114132943_fix.Designer.cs" t="Include" />
@@ -92,6 +98,9 @@
         <e p="Controllers" t="Include" />
         <e p="dockerfile" t="Include" />
         <e p="FS-Gateway.csproj" t="IncludeRecursive" />
+        <e p="https" t="Include">
+          <e p="devcert.pfx" t="Include" />
+        </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="net5.0" t="Include">
@@ -122,6 +131,9 @@
           <e p="PackageContext.cs" t="Include" />
         </e>
         <e p="dockerfile" t="Include" />
+        <e p="https" t="Include">
+          <e p="devcert.pfx" t="Include" />
+        </e>
         <e p="Migrations" t="Include">
           <e p="20210114133502_newdb.cs" t="Include" />
           <e p="20210114133502_newdb.Designer.cs" t="Include" />
@@ -160,6 +172,9 @@
           <e p="PackageContext.cs" t="Include" />
         </e>
         <e p="dockerfile" t="Include" />
+        <e p="https" t="Include">
+          <e p="devcert.pfx" t="Include" />
+        </e>
         <e p="Migrations" t="Include">
           <e p="20210114133727_newdb.cs" t="Include" />
           <e p="20210114133727_newdb.Designer.cs" t="Include" />
@@ -204,6 +219,9 @@
           <e p="ProductContext.cs" t="Include" />
         </e>
         <e p="dockerfile" t="Include" />
+        <e p="https" t="Include">
+          <e p="devcert.pfx" t="Include" />
+        </e>
         <e p="Models" t="Include">
           <e p="ConfigResponse.cs" t="Include" />
           <e p="CreateCheckoutSessionRequest.cs" t="Include" />

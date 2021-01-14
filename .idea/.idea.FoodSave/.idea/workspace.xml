@@ -28,9 +28,6 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/FS-PackagesService/PackageService/Controllers/PackageCountController.cs" />
-      <option value="$PROJECT_DIR$/FS-Gateway/FS-Gateway/Startup.cs" />
-      <option value="$PROJECT_DIR$/FS-PackagesService/PackageService/Properties/launchSettings.json" />
       <option value="$PROJECT_DIR$/FS-Gateway/FS-Gateway/OcelotConfig/orders.ocelot.json" />
       <option value="$PROJECT_DIR$/FS-Gateway/FS-Gateway/OcelotConfig/business.ocelot.json" />
       <option value="$PROJECT_DIR$/FS-Gateway/FS-Gateway/OcelotConfig/packages.ocelot.json" />
@@ -64,12 +61,6 @@
       <option value="$PROJECT_DIR$/FS-Auth/FS_Auth/Models/ApplicationUser.cs" />
       <option value="$PROJECT_DIR$/FS-Auth/FS_Auth/ProfileService.cs" />
       <option value="$PROJECT_DIR$/FS-Auth/FS_Auth/Startup.cs" />
-      <option value="$PROJECT_DIR$/FS-BusinessesService/BusinessService/Dockerfile" />
-      <option value="$PROJECT_DIR$/FS-Gateway/FS-Gateway/Dockerfile" />
-      <option value="$PROJECT_DIR$/FS-Auth/FS_Auth/Dockerfile" />
-      <option value="$PROJECT_DIR$/FS-OrdersService/OrderService/Dockerfile" />
-      <option value="$PROJECT_DIR$/FS-PackagesService/PackageService/Dockerfile" />
-      <option value="$PROJECT_DIR$/PaymentService/PaymentService/Dockerfile" />
       <option value="$PROJECT_DIR$/FS-PackagesService/PackageService/Program.cs" />
       <option value="$PROJECT_DIR$/PaymentService/PaymentService/Properties/launchSettings.json" />
       <option value="$PROJECT_DIR$/FS-OrdersService/OrderService/Program.cs" />
@@ -79,6 +70,15 @@
       <option value="$PROJECT_DIR$/FS-Gateway/FS-Gateway/Properties/launchSettings.json" />
       <option value="$PROJECT_DIR$/FS-BusinessesService/BusinessService/Properties/launchSettings.json" />
       <option value="$PROJECT_DIR$/FS-Gateway/FS-Gateway/Program.cs" />
+      <option value="$PROJECT_DIR$/FS-Gateway/FS-Gateway/Dockerfile" />
+      <option value="$PROJECT_DIR$/FS-BusinessesService/BusinessService/Dockerfile" />
+      <option value="$PROJECT_DIR$/FS-Auth/FS_Auth/Dockerfile" />
+      <option value="$PROJECT_DIR$/FS-OrdersService/OrderService/Dockerfile" />
+      <option value="$PROJECT_DIR$/FS-PackagesService/PackageService/Dockerfile" />
+      <option value="$PROJECT_DIR$/docker-compose.yml" />
+      <option value="$PROJECT_DIR$/PaymentService/PaymentService/Dockerfile" />
+      <option value="$PROJECT_DIR$/PaymentService/PaymentService/Startup.cs" />
+      <option value="$PROJECT_DIR$/PaymentService/PaymentService/Program.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1mvRGh1B6PlOrS0muF5XUqS3zYw" />
@@ -104,7 +104,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Compound.Everything">
+  <component name="RunManager" selected="Docker.BusinessService/Dockerfile">
     <configuration name="Everything" type="CompoundRunConfigurationType">
       <toRun name="BusinessService" type="LaunchSettings" />
       <toRun name="FS-Gateway" type="LaunchSettings" />
@@ -227,6 +227,62 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="BusinessService/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="buildOnly" value="true" />
+          <option name="sourceFilePath" value="FS-BusinessesService/BusinessService/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml.BusinessService: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="BusinessService" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml.PaymenService: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="PaymenService" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml.businessservice: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="businessservice" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue=".NET Launch Settings Profile.BusinessService" />
       <item itemvalue=".NET Launch Settings Profile.FS-Gateway" />
@@ -234,9 +290,23 @@
       <item itemvalue=".NET Launch Settings Profile.OrderService" />
       <item itemvalue=".NET Launch Settings Profile.PackageService" />
       <item itemvalue=".NET Launch Settings Profile.server" />
-      <item itemvalue="Compound.Everything" />
       <item itemvalue=".NET Launch Settings Profile.PaymentService: IIS Express" />
+      <item itemvalue="Compound.Everything" />
+      <item itemvalue="Docker.docker-compose.yml.BusinessService: Compose Deployment" />
+      <item itemvalue="Docker.docker-compose.yml.PaymenService: Compose Deployment" />
+      <item itemvalue="Docker.docker-compose.yml.businessservice: Compose Deployment" />
+      <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+      <item itemvalue="Docker.BusinessService/Dockerfile" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.BusinessService/Dockerfile" />
+        <item itemvalue="Docker.docker-compose.yml.businessservice: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yml.BusinessService: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yml.PaymenService: Compose Deployment" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -249,6 +319,8 @@
       <workItem from="1610371987590" duration="109000" />
       <workItem from="1610570590402" duration="2958000" />
       <workItem from="1610623773583" duration="8156000" />
+      <workItem from="1610632629486" duration="94000" />
+      <workItem from="1610632827479" duration="7945000" />
     </task>
     <servers />
   </component>
