@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\joepv\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\joepv\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_FoodSave.1877899329.00" t="ExcludeRecursive" />
+    <e p="E:\Documents\Git\FoodSave" t="IncludeFlat">
+      <e p="FoodSave.sln" t="IncludeFlat" />
+      <e p="FS-Auth\FS_Auth" t="IncludeRecursive">
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Config" t="Include">
+          <e p="Config.cs" t="Include" />
+        </e>
+        <e p="Constants" t="Include">
+          <e p="Roles.cs" t="Include" />
+        </e>
+        <e p="Controller" t="Include">
+          <e p="AuthController.cs" t="Include" />
+          <e p="RoleController.cs" t="Include" />
+        </e>
+        <e p="DAL" t="Include">
+          <e p="AuthContext.cs" t="Include" />
+        </e>
+        <e p="dockerfile" t="Include" />
+        <e p="FS_Auth.csproj" t="IncludeRecursive" />
+        <e p="Migrations" t="Include" />
+        <e p="Models" t="Include">
+          <e p="ApplicationUser.cs" t="Include" />
+          <e p="Requests" t="Include">
+            <e p="SignupRequest.cs" t="Include" />
+          </e>
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net5.0" t="Include">
+              <e p="FS_Auth.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="ProfileService.cs" t="Include" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="tempkey.jwk" t="Include" />
+      </e>
+      <e p="FS-BusinessesService\BusinessService" t="IncludeRecursive">
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="BusinessEditor.cs" t="Include" />
+        <e p="BusinessService.csproj" t="IncludeRecursive" />
+        <e p="Controllers" t="Include">
+          <e p="BusinessController.cs" t="Include" />
+        </e>
+        <e p="DAL" t="Include">
+          <e p="BusinessContext.cs" t="Include" />
+        </e>
+        <e p="dockerfile" t="Include" />
+        <e p="Dockerfile.production" t="Include" />
+        <e p="Migrations" t="Include">
+          <e p="20210114132943_fix.cs" t="Include" />
+          <e p="20210114132943_fix.Designer.cs" t="Include" />
+          <e p="BusinessContextModelSnapshot.cs" t="Include" />
+        </e>
+        <e p="Models" t="Include">
+          <e p="Business.cs" t="Include" />
+          <e p="Requests" t="Include">
+            <e p="AddBusinessRequest.cs" t="Include" />
+            <e p="EditBusinessRequest.cs" t="Include" />
+          </e>
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net5.0" t="Include">
+              <e p="BusinessService.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+      </e>
+      <e p="FS-Gateway\FS-Gateway" t="IncludeRecursive">
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Controllers" t="Include" />
+        <e p="dockerfile" t="Include" />
+        <e p="FS-Gateway.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net5.0" t="Include">
+              <e p="FS-Gateway.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="OcelotConfig" t="Include">
+          <e p="business.ocelot.json" t="Include" />
+          <e p="global.ocelot.json" t="Include" />
+          <e p="orders.ocelot.json" t="Include" />
+          <e p="packages.ocelot.json" t="Include" />
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+      </e>
+      <e p="FS-OrdersService\OrderService" t="IncludeRecursive">
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Controllers" t="Include">
+          <e p="PackagesController.cs" t="Include" />
+        </e>
+        <e p="DAL" t="Include">
+          <e p="PackageContext.cs" t="Include" />
+        </e>
+        <e p="dockerfile" t="Include" />
+        <e p="Migrations" t="Include">
+          <e p="20210114133502_newdb.cs" t="Include" />
+          <e p="20210114133502_newdb.Designer.cs" t="Include" />
+          <e p="PackageContextModelSnapshot.cs" t="Include" />
+        </e>
+        <e p="Models" t="Include">
+          <e p="Package.cs" t="Include" />
+          <e p="Requests" t="Include">
+            <e p="AddPackageRequest.cs" t="Include" />
+          </e>
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net5.0" t="Include">
+              <e p="OrderService.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="OrderService.csproj" t="IncludeRecursive" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="WeatherForecast.cs" t="Include" />
+      </e>
+      <e p="FS-PackagesService\PackageService" t="IncludeRecursive">
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Controllers" t="Include">
+          <e p="PackageCountController.cs" t="Include" />
+          <e p="PackagesController.cs" t="Include" />
+        </e>
+        <e p="DAL" t="Include">
+          <e p="PackageContext.cs" t="Include" />
+        </e>
+        <e p="dockerfile" t="Include" />
+        <e p="Migrations" t="Include">
+          <e p="20210114133727_newdb.cs" t="Include" />
+          <e p="20210114133727_newdb.Designer.cs" t="Include" />
+          <e p="PackageContextModelSnapshot.cs" t="Include" />
+        </e>
+        <e p="Models" t="Include">
+          <e p="Package.cs" t="Include" />
+          <e p="Requests" t="Include">
+            <e p="AddPackageRequest.cs" t="Include" />
+            <e p="EditPackageRequest.cs" t="Include" />
+          </e>
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net5.0" t="Include">
+              <e p="PackageService.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="PackageEditor.cs" t="Include" />
+        <e p="PackageService.csproj" t="IncludeRecursive" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="PaymentService\PaymentService" t="IncludeRecursive">
+        <e p=".env" t="Include" />
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Configuration" t="Include">
+          <e p="StripeOptions.cs" t="Include" />
+        </e>
+        <e p="Controllers" t="Include">
+          <e p="PaymentsController.cs" t="Include" />
+        </e>
+        <e p="DAL" t="Include">
+          <e p="IProductContext.cs" t="Include" />
+          <e p="ProductContext.cs" t="Include" />
+        </e>
+        <e p="dockerfile" t="Include" />
+        <e p="Models" t="Include">
+          <e p="ConfigResponse.cs" t="Include" />
+          <e p="CreateCheckoutSessionRequest.cs" t="Include" />
+          <e p="CreateCheckoutSessionResponse.cs" t="Include" />
+          <e p="ProductPrice.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="PaymentService.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="PaymentService.csproj" t="IncludeRecursive" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+      </e>
+    </e>
+  </component>
+</project>
