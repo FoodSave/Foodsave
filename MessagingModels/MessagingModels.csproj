@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <LangVersion>8</LangVersion>
+        <PackageVersion>1.0.5</PackageVersion>
+        <TargetFrameworks>net5.0;netstandard2.1</TargetFrameworks>
+        <Title>Messaging contracts</Title>
+        <AssemblyVersion>1.0.4.4</AssemblyVersion>
+        <Version>1.0.4</Version>
+        <FileVersion>1.0.4.0</FileVersion>
+        <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+        <AssemblyName>MessagingContracts</AssemblyName>
+        <RootNamespace>MessagingContracts</RootNamespace>
+    </PropertyGroup>
+
+</Project>

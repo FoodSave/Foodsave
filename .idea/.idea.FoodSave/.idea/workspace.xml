@@ -17,69 +17,76 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/26B8D1E2-4F44-4EA5-B82B-160B88995F25/24/ControllerBase.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FS-PackagesService/PackageService/Controllers/PackagesController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/826EF8D7-FFD9-4292-A34E-9B83CCC125E4/8/DefaultHttpContext.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/C80B499D-ADA7-49E0-A8EE-7A9B1744160B/30/Exception.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/826EF8D7-FFD9-4292-A34E-9B83CCC125E4/12/DefaultHttpRequest.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/69949E4B-CC5A-422B-BFAB-774F66113A2D/5/FeatureReferences.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/PaymentService/PaymentService/Controllers/PaymentsController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/PaymentService/PaymentService/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/31998488-6A5F-463D-9A89-A90B6FD8FC37/f1/38d8274c/SessionEvent.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/PaymentService/PaymentService/Models/Requests/CreateCheckoutSessionRequest.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/PaymentService/PaymentService/DAL/ProductContext.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/PaymentService/PaymentService/Models/ProductPrice.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PaymentService/PaymentService/Models/Product.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/5D13B45C-8C34-4486-8495-0BA9146D20F3/685/IPublishEndpoint.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/8A29B378-4496-4571-BB15-3916AD463E47/1E0/PriceService.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/PaymentService/PaymentService/DAL/IProductContext.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/C80B499D-ADA7-49E0-A8EE-7A9B1744160B/30/Exception.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/2BC5ED24-0D5C-402C-8B6A-BD14FFCEE267/335/StreamReader.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/PaymentService/PaymentService/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FS-PackagesService/PackageService/Controllers/PackageCountController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/FS-BusinessesService/BusinessService/dockerfile" />
-      <option value="$PROJECT_DIR$/FS-BusinessesService/BusinessService/Program.cs" />
-      <option value="$PROJECT_DIR$/FS-BusinessesService/BusinessService/appsettings.json" />
-      <option value="$PROJECT_DIR$/FS-BusinessesService/BusinessService/BusinessService.csproj" />
-      <option value="$PROJECT_DIR$/FS-BusinessesService/BusinessService/Startup.cs" />
-      <option value="$PROJECT_DIR$/FS-Auth/FS_Auth/appsettings.json" />
-      <option value="$PROJECT_DIR$/FS-PackagesService/PackageService/appsettings.json" />
-      <option value="$PROJECT_DIR$/FS-Auth/FS_Auth/FS_Auth.csproj" />
-      <option value="$PROJECT_DIR$/FS-Auth/FS_Auth/Config/Config.cs" />
-      <option value="$PROJECT_DIR$/FS-Auth/FS_Auth/Constants/Roles.cs" />
-      <option value="$PROJECT_DIR$/FS-Auth/FS_Auth/Models/Requests/SignupRequest.cs" />
-      <option value="$PROJECT_DIR$/FS-Auth/FS_Auth/DAL/AuthContext.cs" />
-      <option value="$PROJECT_DIR$/FS-Auth/FS_Auth/Controller/AuthController.cs" />
-      <option value="$PROJECT_DIR$/FS-Auth/FS_Auth/Controller/RoleController.cs" />
-      <option value="$PROJECT_DIR$/FS-Auth/FS_Auth/Models/ApplicationUser.cs" />
-      <option value="$PROJECT_DIR$/FS-Auth/FS_Auth/ProfileService.cs" />
-      <option value="$PROJECT_DIR$/FS-Auth/FS_Auth/Startup.cs" />
-      <option value="$PROJECT_DIR$/FS-PackagesService/PackageService/Program.cs" />
-      <option value="$PROJECT_DIR$/PaymentService/PaymentService/Properties/launchSettings.json" />
-      <option value="$PROJECT_DIR$/FS-Auth/FS_Auth/Program.cs" />
-      <option value="$PROJECT_DIR$/FS-Auth/FS_Auth/Properties/launchSettings.json" />
-      <option value="$PROJECT_DIR$/FS-Gateway/FS-Gateway/Properties/launchSettings.json" />
-      <option value="$PROJECT_DIR$/FS-BusinessesService/BusinessService/Properties/launchSettings.json" />
-      <option value="$PROJECT_DIR$/FS-Gateway/FS-Gateway/Program.cs" />
-      <option value="$PROJECT_DIR$/FS-Gateway/FS-Gateway/Dockerfile" />
-      <option value="$PROJECT_DIR$/FS-BusinessesService/BusinessService/Dockerfile" />
-      <option value="$PROJECT_DIR$/FS-Auth/FS_Auth/Dockerfile" />
-      <option value="$PROJECT_DIR$/FS-OrdersService/OrderService/Dockerfile" />
-      <option value="$PROJECT_DIR$/FS-PackagesService/PackageService/Dockerfile" />
-      <option value="$PROJECT_DIR$/docker-compose.yml" />
-      <option value="$PROJECT_DIR$/PaymentService/PaymentService/Dockerfile" />
-      <option value="$PROJECT_DIR$/PaymentService/PaymentService/Startup.cs" />
-      <option value="$PROJECT_DIR$/PaymentService/PaymentService/Program.cs" />
-      <option value="$PROJECT_DIR$/FS-OrdersService/OrderService/Models/Requests/AddPackageRequest.cs" />
-      <option value="$PROJECT_DIR$/FS-OrdersService/OrderService/Models/Requests/AddOrderRequest.cs" />
-      <option value="$PROJECT_DIR$/FS-OrdersService/OrderService/Program.cs" />
-      <option value="$PROJECT_DIR$/FS-OrdersService/OrderService/DAL/OrderContext.cs" />
-      <option value="$PROJECT_DIR$/FS-OrdersService/OrderService/Models/OrderStatus.cs" />
-      <option value="$PROJECT_DIR$/FS-OrdersService/OrderService/Models/Order.cs" />
       <option value="$PROJECT_DIR$/FS-OrdersService/OrderService/Exceptions/OrderNotFoundException.cs" />
       <option value="$PROJECT_DIR$/FS-OrdersService/OrderService/DAL/Interfaces/IOrderStore.cs" />
       <option value="$PROJECT_DIR$/FS-OrdersService/OrderService/appsettings.json" />
       <option value="$PROJECT_DIR$/FS-OrdersService/OrderService/Properties/launchSettings.json" />
       <option value="$PROJECT_DIR$/FS-OrdersService/OrderService/Startup.cs" />
       <option value="$PROJECT_DIR$/FS-OrdersService/OrderService/DAL/OrderStore.cs" />
-      <option value="$PROJECT_DIR$/FS-OrdersService/OrderService/Controllers/OrderController.cs" />
-      <option value="$PROJECT_DIR$/FS-PackagesService/PackageService/Startup.cs" />
       <option value="$PROJECT_DIR$/FS-PackagesService/PackageService/DAL/PackageContext.cs" />
-      <option value="$PROJECT_DIR$/FS-PackagesService/PackageService/DAL/PackageStore.cs" />
       <option value="$PROJECT_DIR$/FS-PackagesService/PackageService/DAL/Interfaces/IPackageStore.cs" />
+      <option value="$PROJECT_DIR$/PaymentService/PaymentService/Models/ProductPrice.cs" />
+      <option value="$PROJECT_DIR$/PaymentService/PaymentService/appsettings.json" />
+      <option value="$PROJECT_DIR$/PaymentService/PaymentService/Models/Product.cs" />
+      <option value="$PROJECT_DIR$/PaymentService/PaymentService/DAL/ProductContext.cs" />
+      <option value="$PROJECT_DIR$/MessagingModels/Class1.cs" />
+      <option value="$PROJECT_DIR$/FS-PackagesService/PackageService/Consumers/PackageConsumer.cs" />
+      <option value="$PROJECT_DIR$/MessagingModels/PackageMessage.cs" />
+      <option value="$PROJECT_DIR$/MessagingModels/Packages/Package.cs" />
+      <option value="$PROJECT_DIR$/MessagingModels/Packages/PackageMessage.cs" />
+      <option value="$PROJECT_DIR$/PaymentService/PaymentService/Consumers/PackageConsumer.cs" />
+      <option value="$PROJECT_DIR$/FS-PackagesService/PackageService/Models/Package.cs" />
+      <option value="$PROJECT_DIR$/FS-PackagesService/PackageService/Models/Requests/AddPackageRequest.cs" />
+      <option value="$PROJECT_DIR$/FS-PackagesService/PackageService/PackageEditor.cs" />
+      <option value="$PROJECT_DIR$/FS-PackagesService/PackageService/Models/Requests/EditPackageRequest.cs" />
+      <option value="$PROJECT_DIR$/PaymentService/PaymentService/PaymentService.csproj" />
+      <option value="$PROJECT_DIR$/FS-PackagesService/PackageService/PackageService.csproj" />
+      <option value="$PROJECT_DIR$/FS-PackagesService/PackageService/DAL/EventSender.cs" />
+      <option value="$PROJECT_DIR$/FS-PackagesService/PackageService/EnvironmentVariables.cs" />
+      <option value="$PROJECT_DIR$/FS-PackagesService/PackageService/Startup.cs" />
+      <option value="$PROJECT_DIR$/FS-PackagesService/PackageService/Properties/launchSettings.json" />
+      <option value="$PROJECT_DIR$/PaymentService/PaymentService/EnvironmentVariables.cs" />
+      <option value="$PROJECT_DIR$/docker-compose.yml" />
+      <option value="$PROJECT_DIR$/PaymentService/PaymentService/PackageEditor.cs" />
+      <option value="$PROJECT_DIR$/PaymentService/PaymentService/Consumers/AddPackageConsumer.cs" />
+      <option value="$PROJECT_DIR$/PaymentService/PaymentService/Properties/launchSettings.json" />
       <option value="$PROJECT_DIR$/FS-PackagesService/PackageService/Controllers/PackagesController.cs" />
+      <option value="$PROJECT_DIR$/FS-PackagesService/PackageService/DAL/PackageStore.cs" />
+      <option value="$PROJECT_DIR$/FS-OrdersService/OrderService/Controllers/OrderController.cs" />
+      <option value="$PROJECT_DIR$/PaymentService/PaymentService/Models/Session.cs" />
+      <option value="$PROJECT_DIR$/PaymentService/PaymentService/DAL/PaymentContext.cs" />
+      <option value="$PROJECT_DIR$/PaymentService/PaymentService/DAL/Interfaces/ISessionStore.cs" />
+      <option value="$PROJECT_DIR$/PaymentService/PaymentService/Startup.cs" />
+      <option value="$PROJECT_DIR$/PaymentService/PaymentService/DAL/SessionStore.cs" />
+      <option value="$PROJECT_DIR$/MessagingModels/Sessions/SessionEvent.cs" />
+      <option value="$PROJECT_DIR$/PaymentService/PaymentService/DAL/Interfaces/ISessionEventSender.cs" />
+      <option value="$PROJECT_DIR$/PaymentService/PaymentService/DAL/SessionEventSender.cs" />
+      <option value="$PROJECT_DIR$/PaymentService/PaymentService/Models/Requests/CreateCheckoutSessionRequest.cs" />
+      <option value="$PROJECT_DIR$/PaymentService/PaymentService/DAL/ProductStore.cs" />
+      <option value="$PROJECT_DIR$/PaymentService/PaymentService/DAL/Interfaces/IProductStore.cs" />
+      <option value="$PROJECT_DIR$/PaymentService/PaymentService/Controllers/PaymentsController.cs" />
+      <option value="$PROJECT_DIR$/MessagingModels/MessagingModels.csproj" />
+      <option value="$PROJECT_DIR$/MessagingModels/Packages/AddPackageMessage.cs" />
+      <option value="$PROJECT_DIR$/MessagingModels/Orders/IOrderCreatedEvent.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1mvRGh1B6PlOrS0muF5XUqS3zYw" />
@@ -94,7 +101,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="RiderNuGetOptionsPageId" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunDashboard">
@@ -105,7 +112,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.OrderService">
+  <component name="RunManager" selected=".NET Launch Settings Profile.server">
     <configuration name="Everything" type="CompoundRunConfigurationType">
       <toRun name="BusinessService" type="LaunchSettings" />
       <toRun name="FS-Gateway" type="LaunchSettings" />
@@ -228,44 +235,9 @@
         <option name="Build" />
       </method>
     </configuration>
-    <configuration name="BusinessService/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
-      <deployment type="dockerfile">
-        <settings>
-          <option name="buildOnly" value="true" />
-          <option name="sourceFilePath" value="FS-BusinessesService/BusinessService/Dockerfile" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
     <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
       <deployment type="docker-compose.yml">
         <settings>
-          <option name="sourceFilePath" value="docker-compose.yml" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
-    <configuration name="docker-compose.yml.BusinessService: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
-      <deployment type="docker-compose.yml">
-        <settings>
-          <option name="services">
-            <list>
-              <option value="BusinessService" />
-            </list>
-          </option>
-          <option name="sourceFilePath" value="docker-compose.yml" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
-    <configuration name="docker-compose.yml.businessservice: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
-      <deployment type="docker-compose.yml">
-        <settings>
-          <option name="services">
-            <list>
-              <option value="businessservice" />
-            </list>
-          </option>
           <option name="sourceFilePath" value="docker-compose.yml" />
         </settings>
       </deployment>
@@ -284,6 +256,45 @@
       </deployment>
       <method v="2" />
     </configuration>
+    <configuration name="docker-compose.yml.packageservice: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="packageservice" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml.paymentservice: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="paymentservice" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml.rabbitmq: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="rabbitmq" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue=".NET Launch Settings Profile.BusinessService" />
       <item itemvalue=".NET Launch Settings Profile.FS-Gateway" />
@@ -293,19 +304,19 @@
       <item itemvalue=".NET Launch Settings Profile.server" />
       <item itemvalue=".NET Launch Settings Profile.PaymentService: IIS Express" />
       <item itemvalue="Compound.Everything" />
-      <item itemvalue="Docker.docker-compose.yml.BusinessService: Compose Deployment" />
-      <item itemvalue="Docker.docker-compose.yml.businessservice: Compose Deployment" />
-      <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
-      <item itemvalue="Docker.BusinessService/Dockerfile" />
       <item itemvalue="Docker.docker-compose.yml.orderservice: Compose Deployment" />
+      <item itemvalue="Docker.docker-compose.yml.rabbitmq: Compose Deployment" />
+      <item itemvalue="Docker.docker-compose.yml.paymentservice: Compose Deployment" />
+      <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+      <item itemvalue="Docker.docker-compose.yml.packageservice: Compose Deployment" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Docker.docker-compose.yml.orderservice: Compose Deployment" />
-        <item itemvalue="Docker.BusinessService/Dockerfile" />
-        <item itemvalue="Docker.docker-compose.yml.businessservice: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yml.rabbitmq: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yml.packageservice: Compose Deployment" />
         <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
-        <item itemvalue="Docker.docker-compose.yml.BusinessService: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yml.paymentservice: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yml.orderservice: Compose Deployment" />
       </list>
     </recent_temporary>
   </component>
@@ -324,7 +335,13 @@
       <workItem from="1610632827479" duration="7945000" />
       <workItem from="1610707353612" duration="39000" />
       <workItem from="1610707500200" duration="483000" />
-      <workItem from="1610992802477" duration="4565000" />
+      <workItem from="1610992802477" duration="9140000" />
+      <workItem from="1611009625872" duration="4063000" />
+      <workItem from="1611084044765" duration="3212000" />
+      <workItem from="1611092918134" duration="7739000" />
+      <workItem from="1611145580004" duration="1450000" />
+      <workItem from="1611230491867" duration="934000" />
+      <workItem from="1611522766619" duration="1031000" />
     </task>
     <servers />
   </component>
@@ -333,76 +350,5 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/PaymentService/PaymentService/DAL/ProductContext.cs</url>
-          <line>30</line>
-          <properties documentPath="E:\Documents\Git\FoodSave\PaymentService\PaymentService\DAL\ProductContext.cs" initialLine="28" containingFunctionPresentation="method 'getPriceByProductAsync'">
-            <startOffsets>
-              <option value="1175" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1207" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/PaymentService/PaymentService/DAL/ProductContext.cs</url>
-          <line>29</line>
-          <properties documentPath="E:\Documents\Git\FoodSave\PaymentService\PaymentService\DAL\ProductContext.cs" initialLine="27" containingFunctionPresentation="method 'getPriceByProductAsync'">
-            <startOffsets>
-              <option value="1115" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1158" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/PaymentService/PaymentService/DAL/ProductContext.cs</url>
-          <line>28</line>
-          <properties documentPath="E:\Documents\Git\FoodSave\PaymentService\PaymentService\DAL\ProductContext.cs" initialLine="26" containingFunctionPresentation="method 'getPriceByProductAsync'">
-            <startOffsets>
-              <option value="1029" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1098" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/PaymentService/PaymentService/DAL/ProductContext.cs</url>
-          <line>27</line>
-          <properties documentPath="E:\Documents\Git\FoodSave\PaymentService\PaymentService\DAL\ProductContext.cs" initialLine="26" containingFunctionPresentation="method 'getPriceByProductAsync'">
-            <startOffsets>
-              <option value="940" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1012" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/PaymentService/PaymentService/DAL/ProductContext.cs</url>
-          <line>26</line>
-          <properties documentPath="E:\Documents\Git\FoodSave\PaymentService\PaymentService\DAL\ProductContext.cs" initialLine="25" containingFunctionPresentation="method 'getPriceByProductAsync'">
-            <startOffsets>
-              <option value="861" />
-            </startOffsets>
-            <endOffsets>
-              <option value="923" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FS-Gateway", "FS-Gateway\FS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentService", "PaymentService\PaymentService\PaymentService.csproj", "{0E4AAE9D-EC0E-4867-AC57-7472E28DC8FD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessagingModels", "MessagingModels\MessagingModels.csproj", "{B3DDE860-E893-46F7-B018-EECAFE1043CD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{0E4AAE9D-EC0E-4867-AC57-7472E28DC8FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E4AAE9D-EC0E-4867-AC57-7472E28DC8FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E4AAE9D-EC0E-4867-AC57-7472E28DC8FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3DDE860-E893-46F7-B018-EECAFE1043CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3DDE860-E893-46F7-B018-EECAFE1043CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3DDE860-E893-46F7-B018-EECAFE1043CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3DDE860-E893-46F7-B018-EECAFE1043CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

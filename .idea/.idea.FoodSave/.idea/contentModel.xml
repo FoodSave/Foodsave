@@ -171,24 +171,32 @@
         <e p="appsettings.Development.json" t="Include" />
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
+        <e p="Consumers" t="Include">
+          <e p="PackageConsumer.cs" t="Include" />
+        </e>
         <e p="Controllers" t="Include">
           <e p="PackageCountController.cs" t="Include" />
           <e p="PackagesController.cs" t="Include" />
         </e>
         <e p="DAL" t="Include">
+          <e p="EventSender.cs" t="Include" />
           <e p="Interfaces" t="Include">
+            <e p="IEventSender.cs" t="Include" />
             <e p="IPackageStore.cs" t="Include" />
           </e>
           <e p="PackageContext.cs" t="Include" />
           <e p="PackageStore.cs" t="Include" />
         </e>
         <e p="dockerfile" t="Include" />
+        <e p="EnvironmentVariables.cs" t="Include" />
         <e p="https" t="Include">
           <e p="devcert.pfx" t="Include" />
         </e>
         <e p="Migrations" t="Include">
           <e p="20210114133727_newdb.cs" t="Include" />
           <e p="20210114133727_newdb.Designer.cs" t="Include" />
+          <e p="20210119220947_int.cs" t="Include" />
+          <e p="20210119220947_int.Designer.cs" t="Include" />
           <e p="PackageContextModelSnapshot.cs" t="Include" />
         </e>
         <e p="Models" t="Include">
@@ -213,7 +221,191 @@
         </e>
         <e p="Startup.cs" t="Include" />
       </e>
-      <e p="packages" t="ExcludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\@babel\parser" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\@babel\types" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\@bcoe\v8-coverage" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\@jest\console" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\@jest\core" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\@jest\environment" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\@jest\fake-timers" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\@jest\globals" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\@jest\reporters" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\@jest\source-map" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\@jest\test-result" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\@jest\test-sequencer" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\@jest\transform" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\@jest\types" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\@pmmmwh\react-refresh-webpack-plugin" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\@testing-library\dom" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\@testing-library\jest-dom" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\@testing-library\react" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\@testing-library\user-event" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\@types" t="IncludeRecursive">
+        <e p="anymatch" t="IncludeRecursive" />
+        <e p="babel__generator" t="IncludeRecursive" />
+        <e p="babel__template" t="IncludeRecursive" />
+        <e p="babel__traverse" t="IncludeRecursive" />
+        <e p="estree" t="IncludeRecursive" />
+        <e p="istanbul-lib-coverage" t="IncludeRecursive" />
+        <e p="istanbul-lib-report" t="IncludeRecursive" />
+        <e p="jest" t="IncludeRecursive" />
+        <e p="json-schema" t="IncludeRecursive" />
+        <e p="minimatch" t="IncludeRecursive" />
+        <e p="node" t="IncludeRecursive" />
+        <e p="prop-types" t="IncludeRecursive" />
+        <e p="react" t="IncludeRecursive" />
+        <e p="react-dom" t="IncludeRecursive" />
+        <e p="source-list-map" t="IncludeRecursive" />
+        <e p="tapable" t="IncludeRecursive" />
+        <e p="uglify-js" t="IncludeRecursive" />
+        <e p="webpack-sources" t="IncludeRecursive" />
+        <e p="yargs-parser" t="IncludeRecursive" />
+      </e>
+      <e p="FS-WebFrontend\fsfrontend\node_modules\@typescript-eslint\experimental-utils" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\@typescript-eslint\parser" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\@typescript-eslint\scope-manager" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\@typescript-eslint\types" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\@typescript-eslint\typescript-estree" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\@typescript-eslint\visitor-keys" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\acorn" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\acorn-walk" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\aggregate-error" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\ajv" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\ajv-keywords" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\ansi-escapes" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\ansi-regex" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\anymatch" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\array-union" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\arrify" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\callsites" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\camelcase" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\chalk" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\char-regex" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\cjs-module-lexer" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\clean-stack" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\collect-v8-coverage" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\commander" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\csstype" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\del" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\detect-newline" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\diff-sequences" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\dom-accessibility-api" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\emittery" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\entities" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\error-stack-parser" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\eslint-webpack-plugin" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\estree-walker" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\execa" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\expect" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\fast-deep-equal" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\fast-json-stable-stringify" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\fsevents" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\get-stream" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\globby" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\hash.js" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\html-entities" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\ignore" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\import-fresh" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\indent-string" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\is-generator-fn" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\is-path-cwd" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\is-path-in-cwd" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\is-path-inside" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\is-stream" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\jest" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\jest-changed-files" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\jest-circus" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\jest-cli" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\jest-config" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\jest-diff" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\jest-docblock" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\jest-each" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\jest-environment-jsdom" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\jest-environment-node" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\jest-get-type" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\jest-haste-map" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\jest-jasmine2" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\jest-leak-detector" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\jest-matcher-utils" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\jest-message-util" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\jest-mock" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\jest-pnp-resolver" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\jest-regex-util" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\jest-resolve" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\jest-resolve-dependencies" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\jest-runner" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\jest-runtime" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\jest-serializer" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\jest-snapshot" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\jest-util" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\jest-validate" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\jest-watcher" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\jest-worker" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\kleur" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\leven" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\magic-string" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\make-dir" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\mimic-fn" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\nanoid" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\native-url" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\npm-run-path" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\onetime" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\p-each-series" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\p-map" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\path-key" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\path-type" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\pirates" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\pretty-bytes" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\pretty-format" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\promise" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\react" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\react-dom" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\react-scripts" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\resolve-from" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\rollup" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\rollup-plugin-terser" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\rollup-pluginutils" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\schema-utils" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\slash" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\source-map" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\sourcemap-codec" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\stackframe" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\string-length" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\strip-ansi" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\strip-bom" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\tempy" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\terminal-link" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\terser" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\throat" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\ts-pnp" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\tslib" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\tsutils" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\type-fest" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\uri-js" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\v8-to-istanbul" t="IncludeRecursive" />
+      <e p="FS-WebFrontend\fsfrontend\node_modules\web-vitals" t="IncludeRecursive" />
+      <e p="MessagingModels" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive">
+          <e p="Debug" t="ExcludeRecursive" />
+        </e>
+        <e p="MessagingModels.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net5.0" t="Include">
+              <e p="MessagingModels.AssemblyInfo.cs" t="Include" />
+            </e>
+            <e p="netstandard2.1" t="Include">
+              <e p="MessagingModels.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Orders" t="Include">
+          <e p="IOrderCreatedEvent.cs" t="Include" />
+        </e>
+        <e p="packages" t="Include">
+          <e p="AddPackageMessage.cs" t="Include" />
+        </e>
+      </e>
       <e p="PaymentService\PaymentService" t="IncludeRecursive">
         <e p=".env" t="Include" />
         <e p="appsettings.Development.json" t="Include" />
@@ -222,16 +414,34 @@
         <e p="Configuration" t="Include">
           <e p="StripeOptions.cs" t="Include" />
         </e>
+        <e p="Consumers" t="Include">
+          <e p="AddPackageConsumer.cs" t="Include" />
+        </e>
         <e p="Controllers" t="Include">
           <e p="PaymentsController.cs" t="Include" />
         </e>
         <e p="DAL" t="Include">
-          <e p="IProductContext.cs" t="Include" />
-          <e p="ProductContext.cs" t="Include" />
+          <e p="Interfaces" t="Include">
+            <e p="IProductStore.cs" t="Include" />
+            <e p="ISessionEventSender.cs" t="Include" />
+            <e p="ISessionStore.cs" t="Include" />
+          </e>
+          <e p="PaymentContext.cs" t="Include" />
+          <e p="ProductStore.cs" t="Include" />
+          <e p="SessionEventSender.cs" t="Include" />
+          <e p="SessionStore.cs" t="Include" />
         </e>
         <e p="dockerfile" t="Include" />
+        <e p="EnvironmentVariables.cs" t="Include" />
+        <e p="Migrations" t="Include">
+          <e p="20210118234510_test.cs" t="Include" />
+          <e p="20210118234510_test.Designer.cs" t="Include" />
+          <e p="20210119231734_id.cs" t="Include" />
+          <e p="20210119231734_id.Designer.cs" t="Include" />
+          <e p="ProductContextModelSnapshot.cs" t="Include" />
+        </e>
         <e p="Models" t="Include">
-          <e p="ProductPrice.cs" t="Include" />
+          <e p="Product.cs" t="Include" />
           <e p="Requests" t="Include">
             <e p="CreateCheckoutSessionRequest.cs" t="Include" />
           </e>
@@ -239,6 +449,7 @@
             <e p="ConfigResponse.cs" t="Include" />
             <e p="CreateCheckoutSessionResponse.cs" t="Include" />
           </e>
+          <e p="Session.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
@@ -247,6 +458,7 @@
             </e>
           </e>
         </e>
+        <e p="PackageEditor.cs" t="Include" />
         <e p="PaymentService.csproj" t="IncludeRecursive" />
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">
