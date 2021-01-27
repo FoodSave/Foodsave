@@ -1,0 +1,25 @@
+﻿{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:37763",
+      "sslPort": 44356
+    }
+  },
+  "profiles": {
+    
+    "OrderStateMachine": {
+      "commandName": "Project",
+      "dotnetRunMessages": "true",
+      "launchBrowser": false,
+      "applicationUrl": "https://localhost:1;http://localhost:2",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "ASPNETCORE_Kestrel__Certificates__Default__Password" : "Password",
+        "ASPNETCORE_Kestrel__Certificates__Default__Path" : "./https/devcert.pfx",
+        "RabbitMQConnectionString" : "amqp://username:password@localhost:5672"
+      }
+    }
+  }
+}

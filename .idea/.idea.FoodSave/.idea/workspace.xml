@@ -8,6 +8,8 @@
     <projectFile>FS-Gateway/FS-Gateway/FS-Gateway.csproj</projectFile>
     <projectFile>PaymentService/server/server.csproj</projectFile>
     <projectFile>PaymentService/PaymentService/PaymentService.csproj</projectFile>
+    <projectFile>OrderValidationService/OrderValidationService.csproj</projectFile>
+    <projectFile>OrderStateMachine/OrderStateMachine.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f0e09cf-d744-4f65-965e-e5729a032911" name="Default Changelist" comment="" />
@@ -17,76 +19,95 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/26B8D1E2-4F44-4EA5-B82B-160B88995F25/24/ControllerBase.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OrderStateMachine/EnvironmentVariables.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/FS-PackagesService/PackageService/Controllers/PackagesController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/826EF8D7-FFD9-4292-A34E-9B83CCC125E4/8/DefaultHttpContext.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3A7E7B02-18DE-4A37-8EA8-385422CEC53E/25/ActionResultOfT.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/C80B499D-ADA7-49E0-A8EE-7A9B1744160B/233/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/C80B499D-ADA7-49E0-A8EE-7A9B1744160B/30/Exception.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/826EF8D7-FFD9-4292-A34E-9B83CCC125E4/12/DefaultHttpRequest.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/69949E4B-CC5A-422B-BFAB-774F66113A2D/5/FeatureReferences.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/PaymentService/PaymentService/Controllers/PaymentsController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MessagingModels/Packages/IAddPackageMessage.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/C80B499D-ADA7-49E0-A8EE-7A9B1744160B/37/Object.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/PaymentService/PaymentService/Startup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/31998488-6A5F-463D-9A89-A90B6FD8FC37/f1/38d8274c/SessionEvent.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/PaymentService/PaymentService/Models/Requests/CreateCheckoutSessionRequest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/PaymentService/PaymentService/Models/Product.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/5D13B45C-8C34-4486-8495-0BA9146D20F3/685/IPublishEndpoint.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/8A29B378-4496-4571-BB15-3916AD463E47/1E0/PriceService.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/2BC5ED24-0D5C-402C-8B6A-BD14FFCEE267/335/StreamReader.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/84C59B6A-677C-44DB-87DF-040A63716803/0e/0bb63072/EventActivityBinder`2.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/PaymentService/PaymentService/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/36EE76F7-388E-433F-A702-CDC1F33D92AD/4/Console.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/8A29B378-4496-4571-BB15-3916AD463E47/30C/Session.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/5D13B45C-8C34-4486-8495-0BA9146D20F3/1FE/SagaRepository.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OrderStateMachine/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/26B8D1E2-4F44-4EA5-B82B-160B88995F25/24/ControllerBase.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/5D13B45C-8C34-4486-8495-0BA9146D20F3/2D/StateMachineSagaConfigurator.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/5D13B45C-8C34-4486-8495-0BA9146D20F3/6E6/ISagaRepository.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/826EF8D7-FFD9-4292-A34E-9B83CCC125E4/8/DefaultHttpContext.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/826EF8D7-FFD9-4292-A34E-9B83CCC125E4/12/DefaultHttpRequest.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/5D13B45C-8C34-4486-8495-0BA9146D20F3/1F8/InMemorySagaRepository.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/69949E4B-CC5A-422B-BFAB-774F66113A2D/5/FeatureReferences.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PaymentService/PaymentService/Controllers/PaymentsController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PaymentService/PaymentService/Models/Requests/CreateCheckoutSessionRequest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/5D13B45C-8C34-4486-8495-0BA9146D20F3/685/IPublishEndpoint.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/5D13B45C-8C34-4486-8495-0BA9146D20F3/4F2/SagaStateMachine.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/D2B0EF7B-A8C3-4AF1-95CC-501C0131D7BA/185/EntityTypeBuilder`.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/C80B499D-ADA7-49E0-A8EE-7A9B1744160B/412/Dictionary.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OrderStateMachine/OrderSagaDbContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/876DA170-F3BF-4020-A077-573117975B16/67/efafb7f9/IServiceProvider.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/FS-PackagesService/PackageService/Controllers/PackageCountController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/5D13B45C-8C34-4486-8495-0BA9146D20F3/10/MassTransitStateMachine.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/FS-OrdersService/OrderService/Exceptions/OrderNotFoundException.cs" />
-      <option value="$PROJECT_DIR$/FS-OrdersService/OrderService/DAL/Interfaces/IOrderStore.cs" />
-      <option value="$PROJECT_DIR$/FS-OrdersService/OrderService/appsettings.json" />
-      <option value="$PROJECT_DIR$/FS-OrdersService/OrderService/Properties/launchSettings.json" />
-      <option value="$PROJECT_DIR$/FS-OrdersService/OrderService/Startup.cs" />
-      <option value="$PROJECT_DIR$/FS-OrdersService/OrderService/DAL/OrderStore.cs" />
-      <option value="$PROJECT_DIR$/FS-PackagesService/PackageService/DAL/PackageContext.cs" />
-      <option value="$PROJECT_DIR$/FS-PackagesService/PackageService/DAL/Interfaces/IPackageStore.cs" />
-      <option value="$PROJECT_DIR$/PaymentService/PaymentService/Models/ProductPrice.cs" />
-      <option value="$PROJECT_DIR$/PaymentService/PaymentService/appsettings.json" />
-      <option value="$PROJECT_DIR$/PaymentService/PaymentService/Models/Product.cs" />
-      <option value="$PROJECT_DIR$/PaymentService/PaymentService/DAL/ProductContext.cs" />
-      <option value="$PROJECT_DIR$/MessagingModels/Class1.cs" />
-      <option value="$PROJECT_DIR$/FS-PackagesService/PackageService/Consumers/PackageConsumer.cs" />
-      <option value="$PROJECT_DIR$/MessagingModels/PackageMessage.cs" />
-      <option value="$PROJECT_DIR$/MessagingModels/Packages/Package.cs" />
-      <option value="$PROJECT_DIR$/MessagingModels/Packages/PackageMessage.cs" />
-      <option value="$PROJECT_DIR$/PaymentService/PaymentService/Consumers/PackageConsumer.cs" />
-      <option value="$PROJECT_DIR$/FS-PackagesService/PackageService/Models/Package.cs" />
-      <option value="$PROJECT_DIR$/FS-PackagesService/PackageService/Models/Requests/AddPackageRequest.cs" />
-      <option value="$PROJECT_DIR$/FS-PackagesService/PackageService/PackageEditor.cs" />
-      <option value="$PROJECT_DIR$/FS-PackagesService/PackageService/Models/Requests/EditPackageRequest.cs" />
-      <option value="$PROJECT_DIR$/PaymentService/PaymentService/PaymentService.csproj" />
-      <option value="$PROJECT_DIR$/FS-PackagesService/PackageService/PackageService.csproj" />
-      <option value="$PROJECT_DIR$/FS-PackagesService/PackageService/DAL/EventSender.cs" />
-      <option value="$PROJECT_DIR$/FS-PackagesService/PackageService/EnvironmentVariables.cs" />
-      <option value="$PROJECT_DIR$/FS-PackagesService/PackageService/Startup.cs" />
-      <option value="$PROJECT_DIR$/FS-PackagesService/PackageService/Properties/launchSettings.json" />
-      <option value="$PROJECT_DIR$/PaymentService/PaymentService/EnvironmentVariables.cs" />
+      <option value="$PROJECT_DIR$/FS-OrdersService/OrderService/Consumers/OrderCancelledConsumer.cs" />
+      <option value="$PROJECT_DIR$/OrderValidationService/Dockerfile" />
       <option value="$PROJECT_DIR$/docker-compose.yml" />
-      <option value="$PROJECT_DIR$/PaymentService/PaymentService/PackageEditor.cs" />
-      <option value="$PROJECT_DIR$/PaymentService/PaymentService/Consumers/AddPackageConsumer.cs" />
-      <option value="$PROJECT_DIR$/PaymentService/PaymentService/Properties/launchSettings.json" />
-      <option value="$PROJECT_DIR$/FS-PackagesService/PackageService/Controllers/PackagesController.cs" />
-      <option value="$PROJECT_DIR$/FS-PackagesService/PackageService/DAL/PackageStore.cs" />
-      <option value="$PROJECT_DIR$/FS-OrdersService/OrderService/Controllers/OrderController.cs" />
-      <option value="$PROJECT_DIR$/PaymentService/PaymentService/Models/Session.cs" />
-      <option value="$PROJECT_DIR$/PaymentService/PaymentService/DAL/PaymentContext.cs" />
-      <option value="$PROJECT_DIR$/PaymentService/PaymentService/DAL/Interfaces/ISessionStore.cs" />
       <option value="$PROJECT_DIR$/PaymentService/PaymentService/Startup.cs" />
-      <option value="$PROJECT_DIR$/PaymentService/PaymentService/DAL/SessionStore.cs" />
-      <option value="$PROJECT_DIR$/MessagingModels/Sessions/SessionEvent.cs" />
-      <option value="$PROJECT_DIR$/PaymentService/PaymentService/DAL/Interfaces/ISessionEventSender.cs" />
-      <option value="$PROJECT_DIR$/PaymentService/PaymentService/DAL/SessionEventSender.cs" />
-      <option value="$PROJECT_DIR$/PaymentService/PaymentService/Models/Requests/CreateCheckoutSessionRequest.cs" />
-      <option value="$PROJECT_DIR$/PaymentService/PaymentService/DAL/ProductStore.cs" />
-      <option value="$PROJECT_DIR$/PaymentService/PaymentService/DAL/Interfaces/IProductStore.cs" />
-      <option value="$PROJECT_DIR$/PaymentService/PaymentService/Controllers/PaymentsController.cs" />
-      <option value="$PROJECT_DIR$/MessagingModels/MessagingModels.csproj" />
-      <option value="$PROJECT_DIR$/MessagingModels/Packages/AddPackageMessage.cs" />
+      <option value="$PROJECT_DIR$/PaymentService/PaymentService/DAL/PaymentContext.cs" />
+      <option value="$PROJECT_DIR$/OrderValidationService/Properties/launchSettings.json" />
+      <option value="$PROJECT_DIR$/MessagingModels/Orders/IOrderAwatingValidationEvent.cs" />
+      <option value="$PROJECT_DIR$/FS-Saga/OrderStateMachine/Events/OrderAwatingValidationEvent.cs" />
+      <option value="$PROJECT_DIR$/FS-Saga/OrderStateMachine/Events/OrderAwaitingValidationEvent.cs" />
+      <option value="$PROJECT_DIR$/MessagingModels/Orders/IOrderCheckoutSessionCreatedEvent.cs" />
+      <option value="$PROJECT_DIR$/MessagingModels/Orders/IOrderCollectedEvent.cs" />
       <option value="$PROJECT_DIR$/MessagingModels/Orders/IOrderCreatedEvent.cs" />
+      <option value="$PROJECT_DIR$/MessagingModels/Orders/IOrderPayedEvent.cs" />
+      <option value="$PROJECT_DIR$/MessagingModels/Orders/IOrderStartedEvent.cs" />
+      <option value="$PROJECT_DIR$/MessagingModels/Orders/IOrderValidatedEvent.cs" />
+      <option value="$PROJECT_DIR$/FS-Saga/OrderStateMachine/Events/OrderWaitingPaymentEvent.cs" />
+      <option value="$PROJECT_DIR$/FS-Saga/OrderStateMachine/Events/OrderCheckoutSessionCreatedEvent.cs" />
+      <option value="$PROJECT_DIR$/FS-Saga/OrderStateMachine/OrderCreatedEvent.cs" />
+      <option value="$PROJECT_DIR$/FS-Saga/OrderStateMachine/OrderStateData.cs" />
+      <option value="$PROJECT_DIR$/FS-Saga/OrderStateMachine/Events/OrderPayedEvent.cs" />
+      <option value="$PROJECT_DIR$/FS-Saga/OrderStateMachine/Events/OrderCollectedEvent.cs" />
+      <option value="$PROJECT_DIR$/FS-Saga/OrderStateMachine/Events/OrderStartedEvent.cs" />
+      <option value="$PROJECT_DIR$/OrderStateMachine/OrderStateMachine.csproj" />
+      <option value="$PROJECT_DIR$/OrderStateMachine/OrderContext.cs" />
+      <option value="$PROJECT_DIR$/OrderStateMachine/OrderStateMap.cs" />
+      <option value="$PROJECT_DIR$/OrderStateMachine/DbContext.cs" />
+      <option value="$PROJECT_DIR$/OrderStateMachine/Properties/launchSettings.json" />
+      <option value="$PROJECT_DIR$/OrderStateMachine/appsettings.json" />
+      <option value="$PROJECT_DIR$/FS-OrdersService/OrderService/Program.cs" />
+      <option value="$PROJECT_DIR$/OrderStateMachine/Startup.cs" />
+      <option value="$PROJECT_DIR$/OrderStateMachine/OrderSagaDbContext.cs" />
+      <option value="$PROJECT_DIR$/OrderStateMachine/Program.cs" />
+      <option value="$PROJECT_DIR$/FS-OrdersService/OrderService/DAL/OrderStateMap.cs" />
+      <option value="$PROJECT_DIR$/MessagingModels/Orders/IOrderCancelledEvent.cs" />
+      <option value="$PROJECT_DIR$/OrderValidationService/OrderValidationConsumer.cs" />
+      <option value="$PROJECT_DIR$/PaymentService/PaymentService/Utility/StripeUtility.cs" />
+      <option value="$PROJECT_DIR$/MessagingModels/Orders/PackageId.cs" />
+      <option value="$PROJECT_DIR$/PaymentService/PaymentService/Consumers/OrderValidatedConsumer.cs" />
+      <option value="$PROJECT_DIR$/FS-OrdersService/OrderService/DAL/OrderContext.cs" />
+      <option value="$PROJECT_DIR$/FS-OrdersService/OrderService/Controllers/OrderController.cs" />
+      <option value="$PROJECT_DIR$/FS-OrdersService/OrderService/Models/OrderStatus.cs" />
+      <option value="$PROJECT_DIR$/FS-OrdersService/OrderService/Models/Order.cs" />
+      <option value="$PROJECT_DIR$/FS-OrdersService/OrderService/DAL/Interfaces/IOrderStore.cs" />
+      <option value="$PROJECT_DIR$/FS-OrdersService/OrderService/DAL/EfOrderStore.cs" />
+      <option value="$PROJECT_DIR$/FS-OrdersService/OrderService/DAL/OrderRepository.cs" />
+      <option value="$PROJECT_DIR$/FS-OrdersService/OrderService/Consumers/PaymentSessionCreatedConsumer.cs" />
+      <option value="$PROJECT_DIR$/FS-OrdersService/OrderService/Consumers/PaymentSessionCreatedConsumer - Copy.cs" />
+      <option value="$PROJECT_DIR$/FS-OrdersService/OrderService/Consumers/OrderPayedConsumer.cs" />
+      <option value="$PROJECT_DIR$/PaymentService/PaymentService/Controllers/PaymentsController.cs" />
+      <option value="$PROJECT_DIR$/FS-OrdersService/OrderService/Startup.cs" />
+      <option value="$PROJECT_DIR$/FS-Saga/OrderStateMachine/OrderStateMachine.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1mvRGh1B6PlOrS0muF5XUqS3zYw" />
@@ -101,7 +122,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="RiderNuGetOptionsPageId" />
+    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunDashboard">
@@ -112,7 +133,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.server">
+  <component name="RunManager" selected="Compound.Mn dames">
     <configuration name="Everything" type="CompoundRunConfigurationType">
       <toRun name="BusinessService" type="LaunchSettings" />
       <toRun name="FS-Gateway" type="LaunchSettings" />
@@ -122,12 +143,16 @@
       <toRun name="server" type="LaunchSettings" />
       <method v="2" />
     </configuration>
-    <configuration default="true" type="CompoundRunConfigurationType">
-      <toRun name="BusinessService" type="LaunchSettings" />
-      <toRun name="FS-Gateway" type="LaunchSettings" />
+    <configuration name="Mn dames" type="CompoundRunConfigurationType">
+      <toRun name="server" type="LaunchSettings" />
       <toRun name="OrderService" type="LaunchSettings" />
-      <toRun name="PackageService" type="LaunchSettings" />
-      <toRun name="FS_Auth" type="LaunchSettings" />
+      <toRun name="OrderValidationService" type="LaunchSettings" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="CompoundRunConfigurationType">
+      <toRun name="server" type="LaunchSettings" />
+      <toRun name="OrderService" type="LaunchSettings" />
+      <toRun name="OrderValidationService" type="LaunchSettings" />
       <method v="2" />
     </configuration>
     <configuration name="BusinessService" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
@@ -190,10 +215,10 @@
         <option name="Build" />
       </method>
     </configuration>
-    <configuration name="PackageService" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
-      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/FS-PackagesService/PackageService/PackageService.csproj" />
+    <configuration name="OrderValidationService" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/OrderValidationService/OrderValidationService.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net5.0" />
-      <option name="LAUNCH_PROFILE_NAME" value="PackageService" />
+      <option name="LAUNCH_PROFILE_NAME" value="OrderValidationService" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
@@ -205,10 +230,10 @@
         <option name="Build" />
       </method>
     </configuration>
-    <configuration name="PaymentService: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
-      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/PaymentService/PaymentService/PaymentService.csproj" />
-      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.1" />
-      <option name="LAUNCH_PROFILE_NAME" value="IIS Express" />
+    <configuration name="PackageService" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/FS-PackagesService/PackageService/PackageService.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value="net5.0" />
+      <option name="LAUNCH_PROFILE_NAME" value="PackageService" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
@@ -243,12 +268,12 @@
       </deployment>
       <method v="2" />
     </configuration>
-    <configuration name="docker-compose.yml.orderservice: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+    <configuration name="docker-compose.yml.ordervalidationservice: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
       <deployment type="docker-compose.yml">
         <settings>
           <option name="services">
             <list>
-              <option value="orderservice" />
+              <option value="ordervalidationservice" />
             </list>
           </option>
           <option name="sourceFilePath" value="docker-compose.yml" />
@@ -302,21 +327,22 @@
       <item itemvalue=".NET Launch Settings Profile.OrderService" />
       <item itemvalue=".NET Launch Settings Profile.PackageService" />
       <item itemvalue=".NET Launch Settings Profile.server" />
-      <item itemvalue=".NET Launch Settings Profile.PaymentService: IIS Express" />
+      <item itemvalue=".NET Launch Settings Profile.OrderValidationService" />
+      <item itemvalue="Compound.Mn dames" />
       <item itemvalue="Compound.Everything" />
-      <item itemvalue="Docker.docker-compose.yml.orderservice: Compose Deployment" />
       <item itemvalue="Docker.docker-compose.yml.rabbitmq: Compose Deployment" />
       <item itemvalue="Docker.docker-compose.yml.paymentservice: Compose Deployment" />
       <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
       <item itemvalue="Docker.docker-compose.yml.packageservice: Compose Deployment" />
+      <item itemvalue="Docker.docker-compose.yml.ordervalidationservice: Compose Deployment" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Docker.docker-compose.yml.rabbitmq: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yml.ordervalidationservice: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yml.paymentservice: Compose Deployment" />
         <item itemvalue="Docker.docker-compose.yml.packageservice: Compose Deployment" />
         <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
-        <item itemvalue="Docker.docker-compose.yml.paymentservice: Compose Deployment" />
-        <item itemvalue="Docker.docker-compose.yml.orderservice: Compose Deployment" />
       </list>
     </recent_temporary>
   </component>
@@ -342,6 +368,13 @@
       <workItem from="1611145580004" duration="1450000" />
       <workItem from="1611230491867" duration="934000" />
       <workItem from="1611522766619" duration="1031000" />
+      <workItem from="1611576858091" duration="6059000" />
+      <workItem from="1611582991863" duration="3705000" />
+      <workItem from="1611664167648" duration="6874000" />
+      <workItem from="1611676436170" duration="3392000" />
+      <workItem from="1611679903843" duration="6290000" />
+      <workItem from="1611754825741" duration="4736000" />
+      <workItem from="1611774667572" duration="690000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,27 @@
+﻿{
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:25899",
+      "sslPort": 44338
+    }
+  },
+  "profiles": {
+
+    "OrderValidationService": {
+      "commandName": "Project",
+      "dotnetRunMessages": "true",
+      "launchBrowser": false,
+      "launchUrl": "swagger",
+      "applicationUrl": "https://localhost:5001;http://localhost:5000",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "ASPNETCORE_Kestrel__Certificates__Default__Password" : "Password",
+        "ASPNETCORE_Kestrel__Certificates__Default__Path" : "./https/devcert.pfx",
+        "RabbitMQConnectionString" : "amqp://username:password@localhost:5672"
+      }
+    }
+  }
+}
